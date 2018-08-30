@@ -1,6 +1,6 @@
-<REAPER_PROJECT 0.1 "5.35" 1534706870
+<REAPER_PROJECT 0.1 "5.35" 1535658938
   RIPPLE 0
-  GROUPOVERRIDE 0 0 0
+  GROUPOVERRIDE 1 0 0
   AUTOXFADE 1
   ENVATTACH 1
   MIXERUIFLAGS 11 48
@@ -13,9 +13,9 @@
   TIMEMODE 1 5 -1 30 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 50.8235294117647
-  ZOOM 3.14535582189707 0 0
-  VZOOMEX 0
+  CURSOR 72
+  ZOOM 4.96161312489572 0 0
+  VZOOMEX 4
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -55,8 +55,8 @@
   GLOBAL_AUTO -1
   TEMPO 85 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 0
-  SELECTION2 0 0
+  SELECTION 76.23529411764706 100.23529411764706
+  SELECTION2 76.23529411764706 100.23529411764706
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0
   MASTERPEAKCOL 16576
@@ -64,7 +64,7 @@
   MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
-  MASTER_VOLUME 0.34704451744783 0 -1 -1 1
+  MASTER_VOLUME 0.45859632086202 0 -1 -1 1
   MASTER_FX 1
   MASTER_SEL 0
   <MASTERFXLIST
@@ -112,11 +112,12 @@
     DEFSHAPE 0 -1 -1
   >
   <TEMPOENVEX
-    ACT 0
+    ACT 1
     VIS 1 0 1
     LANEHEIGHT 0 0
-    ARM 0
+    ARM 1
     DEFSHAPE 1 -1 -1
+    PT 0.000000000000 85.0000000000 1
   >
   <MASTERVOLENV2
     ACT 1
@@ -125,9 +126,9 @@
     ARM 0
     DEFSHAPE 0 -1 -1
     PT 0 1 0
-    PT 384 0.92 0 0 1
     PT 406.58823529 0 0
   >
+  MARKER 1 40.23528344671202 "" 0 0 1 R
   <PROJBAY
   >
   <TRACK {8E412AEA-7EF0-445B-8642-0B13D31D5077}
@@ -135,7 +136,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.43690161405325 0 -1 -1 1
+    VOLPAN 0.33398278328423 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     ISBUS 0 0
@@ -154,6 +155,7 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
+      WNDRECT 513 73 1127 773
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -161,7 +163,7 @@
       <VST "VSTi: EZdrummer (Toontrack) (32 out)" ezdrummer.dll 0 "" 1684432997
         ZWhmZO5e7f4AAAAAIAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAACAAAAAAAA
         AAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAA
-        AABAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAoCgAAAQAAAAoAEAA=
+        AABAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAADVCgAAAQAAAAoAEAA=
         dmVyc2lvbiAxCkVaWCAiRVpYMl9FWmRydW1tZXIyX01vZGVybiIKaHVtYW5pemUgMgpwb3MgIktpY2siICIxNDI0R01TMiIKcG9zICJTbmFyZSIgIjE0R01TMSIKcG9z
         ICJIYXRzIiAiMTNISFgiCnBvcyAiVG9tMSIgIiIKcG9zICJUb20yIiAiMTRHTVMyIgpwb3MgIlRvbTMiICIiCnBvcyAiVG9tNCIgIjE2R01TMyIKcG9zICJUb201IiAi
         MThHTVMzIgpwb3MgIlJpZGU0IiAiMjBTYWJpYW5SaWRlIgpwb3MgIkNyYXNoMSIgIjIwU2FiaWFuMSIKcG9zICJDcmFzaDIiICIyMFNhYmlhbjIiCnBvcyAiQ3Jhc2gz
@@ -184,12 +186,13 @@
         a25vYiAwIDAuNDk1MDUKa25vYiAxIDAuNjMxMzE5Cmtub2IgMiAwLjUwNDk1MQprbm9iIDMgMC4zNzkyODkKa25vYiA0IDAKZHJ1bXByb3BzIHsKIlhQZXJjLTAiIHgg
         IkVaWFBfRVpkcnVtbWVyMl9QZXJjdXNzaW9uIiAiT25lc2hvdCIgIkNsYXBzMiIKIlhQZXJjLTEiIHggIkVaWFBfRVpkcnVtbWVyMl9QZXJjdXNzaW9uIiAiU2hha2Vy
         IiAiU2hha2VyMSIKIlhQZXJjLTIiIHggIkVaWFBfRVpkcnVtbWVyMl9QZXJjdXNzaW9uIiAiVGFtYm91cmluZSIgIlRhbWIxIgp9Cn0KZWRydW0gbm9uZSBub25lCm1p
-        ZGlsZWFybiB7Cn0KRWRpdG9yIHsgClNvbmdUcmFjayB7ClZpc2libGVBcmVhIDAgNjUKVHJhY2tOYW1lICIiCkNsZWFyVHJhY2tGaXJzdApUaW1lU2lnIDQgNApHcmlk
-        UmVzIDMyCkxvb3BBcmVhIDAgMApMb29wQWN0aXZlIDAKfQpWaXNpYmxlUmVzdWx0Q29sdW1ucyAxNiwyOCwwLDA7MTcsMjgsMCwwOzAsMTg1LDAsMDsxMSwyMDAsMCww
-        OzQsMTUwLDAsMDs2LDEzMCwwLDA7Nyw0NSwwLDA7OCw0NSwwLDA7Myw0NSwwLDA7ClZpc2libGVGaWx0ZXJDb2x1bW5zIDQ7Nzs2OzI7CkJyb3dzZXJIZWlnaHQgMTY2
-        ClNlbGVjdGVkVGFncyAsMCwwClNlbGVjdGVkRmlsZSAKU2VsZWN0ZWRCcm93c2VyUGF0aCAiIgpDbGVhclRhcDJGaW5kCkJyb3dzZXJJc0Zhdm9yaXRlIDAKUHJldmll
-        d0luT3JpZ2luYWxUZW1wbyAwCkNsZWFyU29uZ0NyZWF0b3IgMApWaXNpYmxlVGFiIDEKfQpTeW5jVG9Ib3N0IDEgODUKTWlkaU91dEVuYWJsZWQgMApNaWRpSW5DaGFu
-        bmVsIC0xCgA=
+        ZGlsZWFybiB7Cn0KRWRpdG9yIHsgClNvbmdUcmFjayB7ClZpc2libGVBcmVhIDM3Ny4xMzQgNDQyLjEzNApUcmFja05hbWUgIiIKQ2xlYXJUcmFja0ZpcnN0ClRpbWVT
+        aWcgNCA0CkdyaWRSZXMgMzIKTG9vcEFyZWEgMCAwCkxvb3BBY3RpdmUgMAp9ClZpc2libGVSZXN1bHRDb2x1bW5zIDE2LDI4LDAsMDsxNywyOCwwLDA7MCwxODUsMCww
+        OzExLDIwMCwwLDA7NCwxNTAsMCwwOzYsMTMwLDAsMDs3LDQ1LDAsMDs4LDQ1LDAsMDszLDQ1LDAsMDsKVmlzaWJsZUZpbHRlckNvbHVtbnMgNDs3OzY7MjsKQnJvd3Nl
+        ckhlaWdodCAxNjYKU2VsZWN0ZWRUYWdzICwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAs
+        MCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMApTZWxlY3RlZEZpbGUgClNlbGVjdGVkQnJvd3NlclBhdGggIjAwMDA1MkBFWlhNRVRBTCEv
+        MTUwLVMwMzFARlVMTF9TT05HL1ZhcmlhdGlvbl8wMS5taWQiCkNsZWFyVGFwMkZpbmQKQnJvd3NlcklzRmF2b3JpdGUgMApQcmV2aWV3SW5PcmlnaW5hbFRlbXBvIDEK
+        Q2xlYXJTb25nQ3JlYXRvciAwClZpc2libGVUYWIgMgp9ClN5bmNUb0hvc3QgMSA4NQpNaWRpT3V0RW5hYmxlZCAwCk1pZGlJbkNoYW5uZWwgLTEKAA==
         AAAQAAAA
       >
       FLOATPOS 24 52 916 726
@@ -831,7 +834,7 @@
     <ITEM
       POSITION 124.23529411764706
       SNAPOFFS 0
-      LENGTH 4.05882352941175
+      LENGTH 2.32216619981325
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -865,6 +868,134 @@
         TRACKSEL -252
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 8 16 1370 744 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 126.55746031746033
+      SNAPOFFS 0
+      LENGTH 0.12720588235292
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F67B5B88-D991-4965-BB52-8E29BEBC4C9A}
+      IID 366
+      NAME "EZdrummer untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 2.32216619981325 3.28973544973542
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EBE4E5AC-9E41-4974-83A3-D8F04B99E1E9}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        POOLEDEVTS {BDFC58F9-BA5D-43C3-ACB4-3F8F4790E5F8}
+        E 0 90 24 7f
+        e 0 90 39 7f
+        E 0 90 34 7f
+        E 120 80 24 00
+        e 4680 80 39 00
+        E 0 80 34 00
+        E 17280 b0 7b 00
+        GUID {D152A136-644D-4160-B30F-0816985EC47B}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 714
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0 61 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 8 16 1370 744 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+      TAKE SEL
+      NAME "01-EZdrummer-Recorded MIDI"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31165439 R
+      GUID {8A92235C-D80F-440F-872F-50D654CBF34D}
+      RECPASS 56
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        POOLEDEVTS {269B9298-5506-4725-8CA8-6410D5DF8FA0}
+        E 173 b0 7b 00
+        GUID {2BC2B520-F84E-490E-8689-4CD55DBD01DC}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 716
+        VELLANE 20 100 0
+      >
+    >
+    <ITEM
+      POSITION 126.68466619981324
+      SNAPOFFS 0
+      LENGTH 1.60945144724558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7E969A23-942A-429A-AC03-A876CF120B7A}
+      IID 366
+      NAME "EZdrummer untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 2.44937208216618 3.46994378306874
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {16A0A856-141B-400F-A103-25980319CCFC}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        POOLEDEVTS {99302217-3CC1-41A6-BF3A-1E8540171010}
+        E 0 90 24 7f
+        e 0 90 39 7f
+        E 0 90 34 7f
+        E 120 80 24 00
+        e 4680 80 39 00
+        E 0 80 34 00
+        E 17280 b0 7b 00
+        GUID {E53028BA-1FA2-48E5-9D77-F2D99AA99AD6}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 715
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0 61 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 8 16 1370 744 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 131.45687074829931
+      SNAPOFFS 0
+      LENGTH 2.66077631052426
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D06B29A0-200B-4A29-B9A0-B2A80CBD9842}
+      IID 588
+      VOLPAN 1
+      TAKE SEL
+      NAME "01-EZdrummer-Recorded MIDI"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 30772632 R
+      GUID {29791E95-B614-42F7-927F-E465FFB057C1}
+      RECPASS 57
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        POOLEDEVTS {D6BE9267-940F-47C2-A4E0-D745F3CB3220}
+        E 87252 b0 7b 00
+        GUID {626E8827-18ED-486D-9136-8563B357FF89}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 720
+        VELLANE 20 100 0
       >
     >
     <ITEM
@@ -920,6 +1051,56 @@
         TRACKSEL -252
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 8 16 1370 744 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+      TAKE SEL
+      NAME "01-EZdrummer-Recorded MIDI"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 2.66077631052426 3.76943310657603
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 30772632 R
+      GUID {10CBE8DB-1564-4D5A-9492-F138F25AA9F5}
+      RECPASS 57
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        POOLEDEVTS {C4A629BD-1456-4764-A337-2505797C1E6D}
+        E 87252 b0 7b 00
+        GUID {BBC55665-77FB-478F-999D-D5DFFFF8566E}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 721
+        VELLANE 20 100 0
+      >
+    >
+    <ITEM
+      POSITION 135.44117647058826
+      SNAPOFFS 0
+      LENGTH 0.08823529411762
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {14570402-914B-474E-9376-A9F0D4E2A5A9}
+      IID 589
+      VOLPAN 1
+      TAKE SEL
+      NAME "01-EZdrummer-Recorded MIDI"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 3.98430572228895 5.644433106576
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 30772632 R
+      GUID {462338C5-DCE7-4761-BC42-D6E592860D2D}
+      RECPASS 57
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        POOLEDEVTS {DAD74F2D-4D3A-4B70-8767-C4B3B78E22A1}
+        E 87252 b0 7b 00
+        GUID {9C33C7CE-196C-4090-9C4F-7EEC9A2794E4}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 722
+        VELLANE 20 100 0
       >
     >
     <ITEM
@@ -1324,7 +1505,7 @@
     <ITEM
       POSITION 169.41176470588235
       SNAPOFFS 0
-      LENGTH 45.1764705882353
+      LENGTH 26.20098839535814
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1905,7 +2086,598 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 348
         VELLANE -1 100 0
-        CFGEDITVIEW 64373.113832 0.071475 59 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 0 0 63 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 8 16 1370 744 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 195.61275310124049
+      SNAPOFFS 0
+      LENGTH 18.97548219287717
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {82A1E3D9-EA21-4AC8-B3EA-80ECEE5CCAE2}
+      IID 365
+      NAME "EZdrummer untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 26.20098839535814 37.11806689342404
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C6E59395-76D0-4067-ACD6-1EA4A8F1460E}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        POOLEDEVTS {3C14FF5D-23C3-4958-AF8B-508A3D5FF1B2}
+        E 0 90 24 7f
+        E 0 90 37 7f
+        E 0 90 34 7f
+        E 120 80 24 00
+        E 360 90 24 7f
+        E 120 80 24 00
+        E 360 80 37 00
+        E 0 80 34 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 70
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 240 90 31 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 31 00
+        E 0 90 24 7f
+        E 0 90 39 6a
+        E 120 80 24 00
+        E 360 80 39 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 24 7f
+        E 0 90 36 6a
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 39 7f
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 39 00
+        E 0 90 31 7f
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 31 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 74
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 120 80 26 00
+        E 120 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 26 7f
+        E 120 80 26 00
+        E 120 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 39 7f
+        E 0 90 34 7f
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 90 24 7f
+        E 120 80 24 00
+        E 360 80 39 00
+        E 0 80 34 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 6f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 31 6a
+        E 0 90 26 7f
+        E 120 80 26 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 80 31 00
+        E 0 90 39 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 80 39 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 26 7f
+        E 0 90 36 6a
+        E 120 80 26 00
+        E 120 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 58
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 26 7f
+        E 120 80 26 00
+        E 120 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 0 90 2d 7f
+        E 240 80 2d 00
+        E 0 90 29 7f
+        E 240 80 29 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 39 00
+        E 0 90 31 7f
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 31 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 58
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 480 80 36 00
+        E 0 90 26 7f
+        E 120 80 26 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 2d 7f
+        E 120 80 2d 00
+        E 120 90 2d 7f
+        E 120 80 2d 00
+        E 120 90 2b 7f
+        E 120 80 2b 00
+        E 120 90 2b 7f
+        E 120 80 2b 00
+        E 120 90 37 6a
+        E 0 90 39 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 37 00
+        E 0 80 39 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 71
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 31 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 31 00
+        E 0 90 39 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 39 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 39 00
+        E 0 90 31 7f
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 31 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 71
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 240 90 3a 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 26 7f
+        E 120 80 3a 00
+        E 0 80 26 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 26 7f
+        E 0 90 36 6a
+        E 240 80 26 00
+        E 0 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 26 7f
+        E 120 80 26 00
+        E 120 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 26 7f
+        E 120 80 26 00
+        E 120 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 39 7f
+        E 0 90 37 7f
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 90 24 7f
+        E 120 80 24 00
+        E 360 80 39 00
+        E 0 80 37 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 75
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        e 0 90 24 7f
+        e 120 80 24 00
+        E 120 90 31 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 31 00
+        E 0 90 39 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 39 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 72
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 240 90 39 7f
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 39 00
+        E 0 90 24 7f
+        E 0 90 31 7f
+        E 120 80 24 00
+        E 360 80 31 00
+        E 0 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 26 7f
+        E 240 80 26 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 0 90 24 76
+        E 120 80 24 00
+        E 120 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 240 80 36 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 90 37 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 360 80 37 00
+        E 0 90 36 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 120 80 36 00
+        E 240 90 36 6a
+        E 0 90 26 7f
+        E 240 80 36 00
+        E 0 80 26 00
+        E 240 90 36 6a
+        E 480 80 36 00
+        E 0 90 26 7f
+        E 120 80 26 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 2d 7f
+        E 120 80 2d 00
+        E 120 90 2d 7f
+        E 120 80 2d 00
+        E 120 90 2b 7f
+        E 120 80 2b 00
+        E 120 90 2b 7f
+        E 120 80 2b 00
+        E 120 90 38 6a
+        E 0 90 3a 6a
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 1680 80 38 00
+        E 0 80 3a 00
+        E 0 b0 7b 00
+        GUID {62EA4E65-3588-4BDB-8A2E-A05ADA5E25B9}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 719
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0 63 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL -252
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -6768,7 +7540,7 @@
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0
@@ -6989,15 +7761,15 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.68899412821633 0 -1 -1 1
-    MUTESOLO 0 0 0
+    VOLPAN 0.5228261849445 0 -1 -1 1
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
     SEL 0
-    REC 1 0 0 0 0 0 0
+    REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -7009,7 +7781,7 @@
     MAINSEND 1 0
     <FXCHAIN
       WNDRECT 1137 153 721 436
-      SHOW 3
+      SHOW 0
       LASTSEL 2
       DOCKED 0
       BYPASS 1 0 0
@@ -7064,6 +7836,1736 @@
       RECPASS 55
       <SOURCE WAVE
         FILE "15-180820_0048.wav"
+      >
+    >
+  >
+  <TRACK {F40D8A54-390A-416D-B6B0-EC810B72BEF5}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.42118287246328 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F40D8A54-390A-416D-B6B0-EC810B72BEF5}
+    PERF 0
+    AUXRECV 16 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 133.46984126984128
+      SNAPOFFS 0
+      LENGTH 28.79486461251165
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {29F7881C-38A4-4AAF-812D-8DF2DE4F9191}
+      IID 679
+      NAME 16-180831_0057.wav
+      VOLPAN 0.641026 0 2.217083 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {309BADD8-8D60-4919-97FF-8A6B2C284BBA}
+      RECPASS 107
+      <SOURCE WAVE
+        FILE "16-180831_0057.wav"
+      >
+    >
+    <ITEM
+      POSITION 162.26470588235293
+      SNAPOFFS 0
+      LENGTH 1.72058823529412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {4518829A-5DCB-440F-8ABB-75BBFAC2E58A}
+      IID 679
+      NAME 16-180831_0057.wav
+      VOLPAN 1 0 2.217083 -1
+      SOFFS 28.79486461251165
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {22900384-77D6-43E4-B105-2AB471675BD1}
+      RECPASS 107
+      <SOURCE WAVE
+        FILE "16-180831_0057.wav"
+      >
+    >
+    <ITEM
+      POSITION 163.98529411764704
+      SNAPOFFS 0
+      LENGTH 0.66176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {1E1D2068-F243-40F6-A578-4C83F5AA85BE}
+      IID 679
+      NAME 16-180831_0057.wav
+      VOLPAN 1 0 2.217083 -1
+      SOFFS 30.51545284780576
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {65BB633A-8F51-4DB1-88E9-B8CF9D5A522D}
+      RECPASS 107
+      <SOURCE WAVE
+        FILE "16-180831_0057.wav"
+      >
+    >
+    <ITEM
+      POSITION 164.64705882352939
+      SNAPOFFS 0
+      LENGTH 25.9772495664933
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {812FD397-9872-441E-ABAB-12F3065C7A58}
+      IID 679
+      NAME 16-180831_0057.wav
+      VOLPAN 0.820513 0 2.217083 -1
+      SOFFS 31.17721755368811
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {22870585-D84B-4EA2-AD52-4128CEA28ECC}
+      RECPASS 107
+      <SOURCE WAVE
+        FILE "16-180831_0057.wav"
+      >
+    >
+  >
+  <TRACK {CDBD61F8-7A67-4714-BDC3-C401BECE8F67}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.20079148705394 0.048 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {CDBD61F8-7A67-4714-BDC3-C401BECE8F67}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 134.23396825396824
+      SNAPOFFS 0
+      LENGTH 28.03073762838468
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {B08E9FC3-5B17-418C-9161-40DA137E1B88}
+      IID 678
+      NAME 16-180831_0054.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A5BF2370-F453-42F7-986B-B20F106BB398}
+      RECPASS 106
+      <SOURCE WAVE
+        FILE "16-180831_0054.wav"
+      >
+    >
+    <ITEM
+      POSITION 162.26470588235293
+      SNAPOFFS 0
+      LENGTH 1.72058823529412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {99562E36-617B-47A0-91B9-BF506D831487}
+      IID 679
+      NAME 16-180831_0057.wav
+      VOLPAN 1 0 2.217083 -1
+      SOFFS 28.79486461251165
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AD364553-06D0-4846-BD6B-79355EAE01A0}
+      RECPASS 107
+      <SOURCE WAVE
+        FILE "16-180831_0057.wav"
+      >
+    >
+    <ITEM
+      POSITION 163.98529411764704
+      SNAPOFFS 0
+      LENGTH 0.66176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {5539F811-A3A7-47CF-8C1F-B05CDC919826}
+      IID 679
+      NAME 16-180831_0057.wav
+      VOLPAN 1 0 2.217083 -1
+      SOFFS 30.51545284780576
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C0E9565A-A792-44C0-BA2E-11DA3881318A}
+      RECPASS 107
+      <SOURCE WAVE
+        FILE "16-180831_0057.wav"
+      >
+    >
+    <ITEM
+      POSITION 164.64705882352939
+      SNAPOFFS 0
+      LENGTH 49.31117246898759
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {E84943E5-FE22-4EAD-B7D8-F261422F56A4}
+      IID 678
+      NAME 16-180831_0054.wav
+      VOLPAN 0.820513 0 1 -1
+      SOFFS 30.41309056956115
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A09042E5-962D-4565-BAF5-22C02456DFEF}
+      RECPASS 106
+      <SOURCE WAVE
+        FILE "16-180831_0054.wav"
+      >
+    >
+  >
+  <TRACK {E8CC1F0E-AC32-46A9-8932-1DA83A05B7F3}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E8CC1F0E-AC32-46A9-8932-1DA83A05B7F3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 133.67650793650793
+      SNAPOFFS 0
+      LENGTH 44.1512925170068
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7A044738-91F2-43E2-B5BB-2D753BB7B8C8}
+      IID 680
+      NAME 18-180831_0059.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B8BC0117-8D04-4211-AA2F-9482A1B03184}
+      RECPASS 108
+      <SOURCE WAVE
+        FILE "18-180831_0059.wav"
+      >
+    >
+  >
+  <TRACK {18BEAAFA-E19C-448A-B75D-617201CCCC45}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.60115247317422 0.24 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {18BEAAFA-E19C-448A-B75D-617201CCCC45}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 965 502 1003 578
+      SHOW 1
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: EZmix (Toontrack)" EZmix.dll 0 "" 1702522232
+        eG16Ze5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAgwAAAAEAAAAAABAA
+        ViAxClJlcG9ydExhdGVuY3kgMQpQcmVzZXQgIkNvcmUiICJJbnNlcnRzL1ZvY3MvV2lkZSBWb2NhbHMyIgpTaGFwZSAwLjk0MzAxNgpCbGVuZCAwLjUyMzI1NgpMZXZl
+        bCAwLjY0MTgzMwpJbnB1dCAwLjc1CklucHV0TG9jayAwCgA=
+        AEJhc2ljABAAAAA=
+      >
+      PRESETNAME Basic
+      FLOATPOS 0 0 0 0
+      FXID {92A7A7AC-92BC-4EF9-8AF3-8E5755F149BE}
+      WAK 0
+    >
+    <ITEM
+      POSITION 64.86920634920635
+      SNAPOFFS 0
+      LENGTH 0.46439909297052
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AD080EF9-1B02-4C3D-97B7-2303F1BD3AF1}
+      IID 662
+      VOLPAN 1
+      TAKE SEL
+      NAME 16-180831_0047-01.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25967728 R
+      GUID {B1E69C57-1F6A-49A5-B6C5-9F3C6F63C907}
+      RECPASS 97
+      <SOURCE WAVE
+        FILE "16-180831_0047-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 71.94659863945579
+      SNAPOFFS 0
+      LENGTH 0.87074829931973
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D81AE012-1436-48C9-990A-BA8DE551D728}
+      IID 665
+      NAME 16-180831_0048.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 22910719 R
+      GUID {01AB123F-9F09-4324-87CA-9247BA48457C}
+      RECPASS 99
+      <SOURCE WAVE
+        FILE "16-180831_0048.wav"
+      >
+    >
+    <ITEM
+      POSITION 72.81734693877551
+      SNAPOFFS 0
+      LENGTH 3.70358276643991
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {22C2594E-94C3-4771-A513-F2BA95503F53}
+      IID 665
+      NAME 16-180831_0048-01.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28251769 R
+      GUID {AEE462F3-E3CF-483C-B642-2D812270B7E4}
+      RECPASS 100
+      <SOURCE WAVE
+        FILE "16-180831_0048-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 76.52092970521542
+      SNAPOFFS 0
+      LENGTH 5.53650793650794
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {892D0EDC-9F05-45B5-A1FD-741CCBBCA1D1}
+      IID 664
+      NAME 16-180831_0048-01.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 3.70358276643991
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28251769 R
+      GUID {78A56C00-3A51-4E8D-BC24-434DB19524F6}
+      RECPASS 100
+      <SOURCE WAVE
+        FILE "16-180831_0048-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 82.05743764172335
+      SNAPOFFS 0
+      LENGTH 8.41723356009071
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DDB16D43-4688-4198-8A35-B491AB5BF4B7}
+      IID 666
+      NAME 16-180831_0048-01.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 9.24009070294784
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28251769 R
+      GUID {182946D9-8464-4E4E-A77A-2D6C0FEFF595}
+      RECPASS 100
+      <SOURCE WAVE
+        FILE "16-180831_0048-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 90.47467120181406
+      SNAPOFFS 0
+      LENGTH 9.96136054421768
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9F2E4F0B-807B-41C4-A87F-D8409B5E4395}
+      IID 668
+      NAME 16-180831_0048-01.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 17.65732426303855
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28251769 R
+      GUID {BD133288-8CC8-4A99-9277-BBBCAABE1059}
+      RECPASS 100
+      <SOURCE WAVE
+        FILE "16-180831_0048-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 101.64705882352941
+      SNAPOFFS 0
+      LENGTH 22.26439242363612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D9EA16DC-8E69-4B1A-9C1D-E5BA73DC58F0}
+      IID 689
+      NAME 21-180831_0044-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3F31E655-C4F7-43BF-95A0-6A75CCAD8ADB}
+      <SOURCE WAVE
+        FILE "21-180831_0044-glued.wav"
+      >
+    >
+  >
+  <TRACK {B62FAE42-FC52-4F29-8285-CF209FE792EB}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.31104826827022 -0.32 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B62FAE42-FC52-4F29-8285-CF209FE792EB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 787 528 1003 578
+      SHOW 2
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 1 0 0
+      <VST "VST: ReaTune (Cockos)" reatune.dll 0 "" 1919251566
+        bnRlcu5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAGgAAAABAAAAAAAQAA==
+        AAAAAAAAAADIAAAAuAEAAAAAAAD/DwAA+gAAADIAAAAyAAAAAAAAAAAAAAAAAAAAAACAQgAAQEEAAAAAAAAgQgEAAAABAAAAAAALAAEAAAADAAAAAAAAAAAAAAB4AgAA
+        vwEAAAAAAAA=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {677E5727-86BD-4884-834F-2FF278DF909D}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: EZmix (Toontrack)" EZmix.dll 0 "" 1702522232
+        eG16Ze5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAhQAAAAEAAAAAABAA
+        ViAxClJlcG9ydExhdGVuY3kgMQpQcmVzZXQgIkNvcmUyIiAiU3RlZmFuL1ZvY2Fscy9JbmRpZSBWb2NhbHMiClNoYXBlIDAuMDkxNzMyOApCbGVuZCAwLjM5MjUzNgpM
+        ZXZlbCAwLjc2MTc5CklucHV0IDAuNzUKSW5wdXRMb2NrIDAKAA==
+        AEJhc2ljABAAAAA=
+      >
+      PRESETNAME Basic
+      FLOATPOS 0 0 0 0
+      FXID {C65E77BF-E0B7-4803-B81D-C2EEF88C3F53}
+      WAK 0
+    >
+    <ITEM
+      POSITION 73.46285714285715
+      SNAPOFFS 0
+      LENGTH 4.55111111111111
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C8BA9C91-C081-4211-B528-701EE9FF63FE}
+      IID 670
+      NAME 17-180831_0050.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25203025 R
+      GUID {FF79862A-C569-43E9-87D7-DEA3D4DAE3A3}
+      RECPASS 102
+      <SOURCE WAVE
+        FILE "17-180831_0050.wav"
+      >
+    >
+    <ITEM
+      POSITION 78.01396825396826
+      SNAPOFFS 0
+      LENGTH 3.70213151927438
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {42C4FA86-C0CB-4E49-941D-C61668C51694}
+      IID 669
+      NAME 17-180831_0050.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 4.55111111111111
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25203025 R
+      GUID {A9136219-215E-4C97-B1E9-171C4FEF6448}
+      RECPASS 102
+      <SOURCE WAVE
+        FILE "17-180831_0050.wav"
+      >
+    >
+    <ITEM
+      POSITION 81.71609977324263
+      SNAPOFFS 0
+      LENGTH 6.02458716820064
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {72B26941-F520-47EB-A90D-1F29BC82B287}
+      IID 671
+      NAME 17-180831_0050.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 8.25324263038549
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25203025 R
+      GUID {3B7E4855-D4F4-42EF-91EA-99D3EBFE6372}
+      RECPASS 102
+      <SOURCE WAVE
+        FILE "17-180831_0050.wav"
+      >
+    >
+    <ITEM
+      POSITION 87.52941176470588
+      SNAPOFFS 0
+      LENGTH 0.21127517673739
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2FBB3BB6-8AF1-401A-9E83-AF127E4B8158}
+      IID 671
+      NAME 17-180831_0052.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 0.30185941043085
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29536434 R
+      GUID {FA532A2B-6D8C-4AFA-AF52-9BD7BE3BA375}
+      RECPASS 104
+      <SOURCE WAVE
+        FILE "17-180831_0052.wav"
+      >
+    >
+    <ITEM
+      POSITION 87.74068694144327
+      SNAPOFFS 0
+      LENGTH 3.59770308123245
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 1.20049 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {615B5838-AEF1-46D0-8222-3C922FF619BA}
+      IID 673
+      NAME 17-180831_0052.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 2.13617446978795
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29536434 R
+      GUID {4FDFFDFB-54E1-4085-BC8E-1CD76A7019BA}
+      RECPASS 104
+      <SOURCE WAVE
+        FILE "17-180831_0052.wav"
+      >
+    >
+    <ITEM
+      POSITION 87.74068694144327
+      SNAPOFFS 0
+      LENGTH 1.20048952914496
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1.1 0.01 1.20049 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {2768DC12-5C07-4516-BB17-7F5AC4A6090E}
+      IID 671
+      NAME 17-180831_0052.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 2.13617446978795
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29536434 R
+      GUID {30327C76-E7ED-4D1D-ABFF-C7190B5DE45D}
+      RECPASS 104
+      <SOURCE WAVE
+        FILE "17-180831_0052.wav"
+      >
+    >
+    <ITEM
+      POSITION 91.33839002267572
+      SNAPOFFS 0
+      LENGTH 10.30866880085368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0169673D-568A-4DF9-AABC-E4717F487B08}
+      IID 675
+      NAME 17-180831_0052.wav
+      VOLPAN 0.641026 0 1 -1
+      SOFFS 5.7338775510204
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29536434 R
+      GUID {90556047-905A-4B11-955C-90E7994FAF47}
+      RECPASS 104
+      <SOURCE WAVE
+        FILE "17-180831_0052.wav"
+      >
+    >
+    <ITEM
+      POSITION 101.44739229024944
+      SNAPOFFS 0
+      LENGTH 0.00001
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A4D900A6-45D2-4876-B120-BC4AC2AC9FCB}
+      IID 675
+      NAME 17-180831_0053.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25606655 R
+      GUID {1F9C6DEF-04A5-4E05-99A4-E6976B1970F5}
+      RECPASS 105
+      <SOURCE WAVE
+        FILE "17-180831_0053.wav"
+      >
+    >
+    <ITEM
+      POSITION 101.64705882352941
+      SNAPOFFS 0
+      LENGTH 21.53275977057491
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A55FE4D6-6CBB-4670-A19B-351C343C89A7}
+      IID 677
+      NAME 17-180831_0053.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.19966653327997
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25606655 R
+      GUID {671BDDDC-F8E4-4389-B695-B5FD301B1D13}
+      RECPASS 105
+      <SOURCE WAVE
+        FILE "17-180831_0053.wav"
+      >
+    >
+  >
+  <TRACK {1775CD8B-EE63-46A2-AA1E-E43AE3765BD4}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1775CD8B-EE63-46A2-AA1E-E43AE3765BD4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 11.12616151820389
+      SNAPOFFS 0
+      LENGTH 3.68685435481198
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B130E38E-6E93-452B-97B9-D5B6C43E7298}
+      IID 598
+      NAME 16-180831_0015.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 30.27086167800454
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B249658F-5DEC-4887-841D-CB910F6353C1}
+      RECPASS 63
+      <SOURCE WAVE
+        FILE "16-180831_0015.wav"
+      >
+    >
+    <ITEM
+      POSITION 16.14936507936508
+      SNAPOFFS 0
+      LENGTH 30.27091408589763
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {70963715-6A8F-483A-8EAC-10D5D116A7D8}
+      IID 597
+      NAME 16-180831_0015.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {39DC6E9A-8DD4-40F9-A731-A3DF8AB867C5}
+      RECPASS 62
+      <SOURCE WAVE
+        FILE "16-180831_0015.wav"
+      >
+    >
+  >
+  <TRACK {E83FF148-7579-40B2-9B54-68CD8BDEACD0}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E83FF148-7579-40B2-9B54-68CD8BDEACD0}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 15.52941176470588
+      SNAPOFFS 0
+      LENGTH 28.23529411764706
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4B546933-1C53-42A8-89DF-1E8FC775B0D7}
+      IID 599
+      NAME 17-180831_0017.wav
+      VOLPAN 0.615385 0 1 -1
+      SOFFS 0.0418153928238
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25199298 R
+      GUID {DAFF4985-EAAC-4503-87E8-20C601E8B355}
+      RECPASS 64
+      <SOURCE WAVE
+        FILE "17-180831_0017.wav"
+      >
+    >
+    <ITEM
+      POSITION 54.56975056689343
+      SNAPOFFS 0
+      LENGTH 4.72436708016539
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7A18B675-C545-41AF-96F4-EEDCF605CC86}
+      IID 635
+      NAME 21-180831_0036-02.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.35537414965987
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25638768 R
+      GUID {2AE3D854-332E-4924-BC71-354E63DAF834}
+      RECPASS 87
+      <SOURCE WAVE
+        FILE "21-180831_0036-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 59.40324263038549
+      SNAPOFFS 0
+      LENGTH 6.02786848072562
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {640D01BB-6A62-439F-8A6A-3844B27EAC58}
+      IID 639
+      VOLPAN 1
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0036-02.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.18886621315193
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25638768 R
+      GUID {367A9614-F967-42A4-AFB3-796B8181400B}
+      RECPASS 87
+      <SOURCE WAVE
+        FILE "21-180831_0036-02.wav"
+      >
+      TAKE SEL
+      NAME 21-180831_0037.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 18189278 R
+      GUID {C9CAA22F-BD64-4BA3-B92D-8EDFC04BB2E6}
+      RECPASS 88
+      <SOURCE WAVE
+        FILE "21-180831_0037.wav"
+      >
+    >
+    <ITEM
+      POSITION 65.43111111111111
+      SNAPOFFS 0
+      LENGTH 1.56589569160998
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {FC50B13C-F316-44C9-B989-5ED509A5D508}
+      IID 632
+      NAME 21-180831_0035.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0DE5AF24-86D7-466D-A077-61996A1A4175}
+      RECPASS 82
+      <SOURCE WAVE
+        FILE "21-180831_0035.wav"
+      >
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0036-02.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 13.21673469387755
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25638768 R
+      GUID {D23FEFB8-D16B-4B1E-8425-B77811363FA4}
+      RECPASS 87
+      <SOURCE WAVE
+        FILE "21-180831_0036-02.wav"
+      >
+      TAKE SEL
+      NAME 21-180831_0037.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 6.02786848072562
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 18189278 R
+      GUID {3DEE315C-42F7-4F49-95A8-8112EFB3BB7E}
+      RECPASS 88
+      <SOURCE WAVE
+        FILE "21-180831_0037.wav"
+      >
+    >
+  >
+  <TRACK {99245697-1428-496E-A0D5-C30037355B72}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {99245697-1428-496E-A0D5-C30037355B72}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 14.05260770975057
+      SNAPOFFS 0
+      LENGTH 1.43498866213152
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F720F498-DFAC-4EC7-B590-E30CB7085D94}
+      IID 603
+      VOLPAN 0.615385
+      TAKE SEL
+      NAME 18-180831_0018.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31102094 R
+      GUID {3591A764-4A87-4F7E-BDCC-2270C755FC49}
+      RECPASS 66
+      <SOURCE WAVE
+        FILE "18-180831_0018.wav"
+      >
+    >
+    <ITEM
+      POSITION 15.48759637188209
+      SNAPOFFS 0
+      LENGTH 0.0418153928238
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {84413309-1001-46B6-A782-6BA51173BB02}
+      IID 599
+      NAME 17-180831_0017.wav
+      VOLPAN 0.615385 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25199298 R
+      GUID {F67914CA-44BB-4A8C-96E3-0EE898E7FD72}
+      RECPASS 64
+      <SOURCE WAVE
+        FILE "17-180831_0017.wav"
+      >
+      TAKE SEL
+      NAME 18-180831_0018.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 1.43498866213152
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31102094 R
+      GUID {F683B3C2-BD73-4BA4-8800-DDBE30E63CBC}
+      RECPASS 66
+      <SOURCE WAVE
+        FILE "18-180831_0018.wav"
+      >
+    >
+    <ITEM
+      POSITION 15.52941176470589
+      SNAPOFFS 0
+      LENGTH 13.05882352941176
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {FE23FB92-93D0-461D-A14E-2C8BAB1F97EB}
+      IID 604
+      NAME 18-180831_0018.wav
+      VOLPAN 0.615385 0 1 -1
+      SOFFS 1.47680405495532
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31102094 R
+      GUID {457532BE-EF8E-4807-ADB5-2F72CAAB426A}
+      RECPASS 66
+      <SOURCE WAVE
+        FILE "18-180831_0018.wav"
+      >
+    >
+    <ITEM
+      POSITION 28.58823529411765
+      SNAPOFFS 0
+      LENGTH 2.8235294117647
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1.1 2.823529 0.352941 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {C7F87D41-8241-4961-981E-6BB9BFF6EBFF}
+      IID 605
+      NAME 19-180831_0020.wav
+      VOLPAN 0.552268 0 1 -1
+      SOFFS 5.44038948912899
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D3924460-5B9C-47D3-9F14-3CCA840971B4}
+      RECPASS 67
+      <SOURCE WAVE
+        FILE "19-180831_0020.wav"
+      >
+    >
+    <ITEM
+      POSITION 31.05882352941176
+      SNAPOFFS 0.70588235294118
+      LENGTH 12.70588235294118
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.352941 1 1 0
+      FADEOUT 1.1 0.01 0.352941 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {313C19E8-0CDC-4CB2-A389-D923FA523EA7}
+      IID 606
+      NAME 19-180831_0022.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 3.81270108043217
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {66D33D1B-C5E2-4524-B387-93C94ADB2D82}
+      RECPASS 68
+      <SOURCE WAVE
+        FILE "19-180831_0022.wav"
+      >
+    >
+    <ITEM
+      POSITION 43.41176470588236
+      SNAPOFFS 0
+      LENGTH 4.41176470588236
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.352941 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D41BF15C-34DB-4752-8021-5FF91B94EBE9}
+      IID 626
+      NAME 20-180831_0029.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.08516606642657
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3B2B16F4-58C7-447B-B4B0-0FDFA0551530}
+      RECPASS 77
+      <SOURCE WAVE
+        FILE "20-180831_0029.wav"
+      >
+    >
+    <ITEM
+      POSITION 47.82352941176472
+      SNAPOFFS 0
+      LENGTH 6.42816059757234
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.806656 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {CCBD38D2-3385-4904-AEF6-58185434DB9F}
+      IID 626
+      NAME 20-180831_0029-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.4737108176604
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28392780 R
+      GUID {707708BE-5815-40E7-8735-C7E18AA49033}
+      RECPASS 78
+      <SOURCE WAVE
+        FILE "20-180831_0029-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 53.44503401360544
+      SNAPOFFS 0
+      LENGTH 6.55496598639456
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.806656 1 1 0
+      FADEOUT 1.1 0.01 0.596757 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {83AAC427-DCBB-4FB4-BC03-D39F71844B3C}
+      IID 633
+      NAME 21-180831_0035-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EEA9E037-39E2-410E-A65C-7B3165E8C851}
+      RECPASS 83
+      <SOURCE WAVE
+        FILE "21-180831_0035-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 59.40324263038549
+      SNAPOFFS 0
+      LENGTH 7.5937641723356
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.596757 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1096FA2C-A5C9-4DF8-B55C-672F4C754AFC}
+      IID 649
+      VOLPAN 1
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE SEL
+      NAME 21-180831_0038-01.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0.30185941043084
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33533840 R
+      GUID {FC1ED038-14AF-4AD0-89A2-F0CFD92DD457}
+      RECPASS 90
+      <SOURCE WAVE
+        FILE "21-180831_0038-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 66.99700680272109
+      SNAPOFFS 0
+      LENGTH 0.02092970521542
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CF5B42B8-D61D-4F75-B126-FC421B5AE5D5}
+      IID 640
+      VOLPAN 1
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0036-02.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.78263038548753
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25638768 R
+      GUID {DB5D343A-AAD3-47D5-995E-CFA8468EB470}
+      RECPASS 87
+      <SOURCE WAVE
+        FILE "21-180831_0036-02.wav"
+      >
+      TAKE
+      NAME 21-180831_0037.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.5937641723356
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 18189278 R
+      GUID {CF8EFF16-4E9B-45A3-8985-70FED45F6245}
+      RECPASS 88
+      <SOURCE WAVE
+        FILE "21-180831_0037.wav"
+      >
+      TAKE
+      NAME 21-180831_0038-01.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.89562358276644
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33533840 R
+      GUID {028E2071-2295-431E-A107-929554421749}
+      RECPASS 90
+      <SOURCE WAVE
+        FILE "21-180831_0038-01.wav"
+      >
+      TAKE SEL
+      NAME 21-180831_0040.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 8.00011337868481
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26151876 R
+      GUID {22A6E6FC-A8D1-48E8-9F70-6BFF1653B5FE}
+      RECPASS 91
+      <SOURCE WAVE
+        FILE "21-180831_0040.wav"
+      >
+      TAKE NULL
+    >
+    <ITEM
+      POSITION 67.01793650793651
+      SNAPOFFS 0
+      LENGTH 0.03857142857143
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {440D4B94-9F97-4BEB-BC46-F12768558CD5}
+      IID 640
+      VOLPAN 1
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0036-02.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.80356009070295
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25638768 R
+      GUID {89343F9E-1457-4B11-B30A-20ACF46EAF0B}
+      RECPASS 87
+      <SOURCE WAVE
+        FILE "21-180831_0036-02.wav"
+      >
+      TAKE
+      NAME 21-180831_0037.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.61469387755102
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 18189278 R
+      GUID {D4FEC57E-27AA-4B7C-A5AF-28ADFD36E3F1}
+      RECPASS 88
+      <SOURCE WAVE
+        FILE "21-180831_0037.wav"
+      >
+      TAKE NULL
+      TAKE SEL
+      NAME 21-180831_0040.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 8.02104308390023
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26151876 R
+      GUID {53673D6F-3B6D-4249-A0BB-81E288CB37A4}
+      RECPASS 91
+      <SOURCE WAVE
+        FILE "21-180831_0040.wav"
+      >
+      TAKE NULL
+    >
+    <ITEM
+      POSITION 67.05650793650794
+      SNAPOFFS 0
+      LENGTH 0.68124716553287
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3376C137-8086-4AE5-8D89-563BE3B098D9}
+      IID 640
+      VOLPAN 1
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0036-02.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.84213151927438
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25638768 R
+      GUID {AF2AD497-BF43-40CD-894D-CE837A38981C}
+      RECPASS 87
+      <SOURCE WAVE
+        FILE "21-180831_0036-02.wav"
+      >
+      TAKE
+      NAME 21-180831_0037.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.65326530612245
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 18189278 R
+      GUID {E550DF18-3727-4D4D-A3FE-19B7CFDC9E70}
+      RECPASS 88
+      <SOURCE WAVE
+        FILE "21-180831_0037.wav"
+      >
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0040.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 8.05961451247166
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26151876 R
+      GUID {1F8E3C9D-4736-4F83-9047-7C5BBBAF963C}
+      RECPASS 91
+      <SOURCE WAVE
+        FILE "21-180831_0040.wav"
+      >
+      TAKE SEL
+      NAME 21-180831_0042.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27393887 R
+      GUID {88BBBA18-D331-4553-9A5F-9DCC368982B6}
+      RECPASS 93
+      <SOURCE WAVE
+        FILE "21-180831_0042.wav"
+      >
+      TAKE NULL
+    >
+    <ITEM
+      POSITION 67.73775510204082
+      SNAPOFFS 0
+      LENGTH 0.05575963718822
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6960BA31-556E-4A70-9D72-50C3E43D349E}
+      IID 640
+      VOLPAN 1
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0036-02.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 15.52337868480725
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25638768 R
+      GUID {100A511B-D197-4E1B-87B9-78AF51AD78D4}
+      RECPASS 87
+      <SOURCE WAVE
+        FILE "21-180831_0036-02.wav"
+      >
+      TAKE NULL
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0040.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 8.74086167800454
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26151876 R
+      GUID {E021D16C-BD30-47D0-BF7C-2C978FEF997D}
+      RECPASS 91
+      <SOURCE WAVE
+        FILE "21-180831_0040.wav"
+      >
+      TAKE SEL
+      NAME 21-180831_0042.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0.68124716553288
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27393887 R
+      GUID {7E60D3FB-9B09-4F97-95DE-0501A1C00E2D}
+      RECPASS 93
+      <SOURCE WAVE
+        FILE "21-180831_0042.wav"
+      >
+      TAKE NULL
+    >
+    <ITEM
+      POSITION 67.79351473922904
+      SNAPOFFS 0
+      LENGTH 0.19965986394556
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {EDC99317-C701-4E20-A517-DC014CFF41D4}
+      IID 653
+      VOLPAN 1
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0040.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 8.79662131519276
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26151876 R
+      GUID {55CB4D5A-B7CC-47E3-A7DC-6FF54D247468}
+      RECPASS 91
+      <SOURCE WAVE
+        FILE "21-180831_0040.wav"
+      >
+      TAKE SEL
+      NAME 21-180831_0042.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0.7370068027211
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27393887 R
+      GUID {6C3AEA42-697D-4297-AF50-AA1ECFA996ED}
+      RECPASS 93
+      <SOURCE WAVE
+        FILE "21-180831_0042.wav"
+      >
+      TAKE NULL
+    >
+    <ITEM
+      POSITION 67.99317460317459
+      SNAPOFFS 0
+      LENGTH 2.53004535147393
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3131B3B5-B0D4-4234-8B98-C52B0F93E278}
+      IID 656
+      VOLPAN 1
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE SEL
+      NAME 21-180831_0042.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0.93666666666665
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27393887 R
+      GUID {9C8EA527-8449-4F39-A6F2-E2DD2D572F50}
+      RECPASS 93
+      <SOURCE WAVE
+        FILE "21-180831_0042.wav"
+      >
+      TAKE NULL
+    >
+    <ITEM
+      POSITION 70.52321995464852
+      SNAPOFFS 0
+      LENGTH 5.13015873015873
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {18404F77-3CC4-4673-8202-5AD13472DC44}
+      IID 654
+      NAME 21-180831_0041.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {66CF2E32-E770-448C-9CBB-9A8DE15601FB}
+      RECPASS 92
+      <SOURCE WAVE
+        FILE "21-180831_0041.wav"
+      >
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE SEL
+      NAME 21-180831_0042.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 3.46671201814058
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27393887 R
+      GUID {7AE51A1E-3511-4DC4-9097-D25BAE721DBA}
+      RECPASS 93
+      <SOURCE WAVE
+        FILE "21-180831_0042.wav"
+      >
+      TAKE NULL
+    >
+  >
+  <TRACK {D48D8B60-589C-4C12-A26F-530BA6555758}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D48D8B60-589C-4C12-A26F-530BA6555758}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {01B1C107-1838-4D6B-A7E0-623E6EE7E812}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {01B1C107-1838-4D6B-A7E0-623E6EE7E812}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 43.76470588235294
+      SNAPOFFS 0
+      LENGTH 0.00001
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A940DFFB-A99D-43C3-90AB-C67078807C59}
+      IID 607
+      NAME 19-180831_0022.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 16.51853808189943
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {502A2AAA-FA37-4681-98A4-8EB132AC5684}
+      RECPASS 69
+      <SOURCE WAVE
+        FILE "19-180831_0022.wav"
+      >
+    >
+    <ITEM
+      POSITION 101.17340136054423
+      SNAPOFFS 0
+      LENGTH 1.41177470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {ECAFD11F-AAB1-44BF-873B-F07849B4054C}
+      IID 657
+      VOLPAN 1
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE NULL
+      TAKE
+      NAME 21-180831_0042.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 34.11689342403628
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27393887 R
+      GUID {B4C8D9D0-8948-4D5A-8E6A-8F3D0216FAE9}
+      RECPASS 93
+      <SOURCE WAVE
+        FILE "21-180831_0042.wav"
+      >
+      TAKE SEL
+      NAME 21-180831_0044.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 32089998 R
+      GUID {2DD3B500-8FBC-41D7-B08E-0EA4233156DB}
+      RECPASS 94
+      <SOURCE WAVE
+        FILE "21-180831_0044.wav"
+      >
+    >
+    <ITEM
+      POSITION 126.55746031746031
+      SNAPOFFS 0
+      LENGTH 0.12625850340136
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D84CCEB6-8782-4BD1-92C5-04EA64742B54}
+      IID 586
+      NAME 16-180831_0008.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31165439 R
+      GUID {E1EE2269-3B82-4486-AC7A-00215D5D1CCD}
+      RECPASS 56
+      <SOURCE WAVE
+        FILE "16-180831_0008.wav"
       >
     >
   >
